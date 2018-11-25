@@ -1,64 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+</head>
 <body>
 
-<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML5 canvas tag.</canvas>
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
 
-var arc1_per = 20;
-var arc1_to_c = (arc1_per / 50 );
-var arc1_next_start = arc1_to_c;
-arc1_per = arc1_to_c * Math.PI;
-var arc1_start = 0 * Math.PI;
-ctx.beginPath();
-ctx.arc(100, 75, 50, arc1_start, arc1_per);
-ctx.strokeStyle = "red";
-ctx.lineWidth=8;
-ctx.stroke();
+    var arc1_per = 20;
+    var arc1_to_c = (arc1_per / 50 );
+    var arc1_next_start = arc1_to_c;
+    arc1_per = arc1_to_c * Math.PI;
+    var arc1_start = 0 * Math.PI;
+    ctx.beginPath();
+    ctx.arc(100, 75, 50, arc1_start, arc1_per);
+    ctx.strokeStyle = "red";
+    ctx.lineWidth=8;
+    ctx.stroke();
 
-var arc2_per = 25;
-var arc2_to_c = (arc2_per / 50)
-var arc2_next_start = arc2_to_c;
-arc2_per = (arc1_next_start + arc2_to_c) * Math.PI;
-var arc2_start = (arc1_next_start) * Math.PI;
-ctx.beginPath();
-ctx.arc(100, 75, 50, arc2_start , arc2_per);
-ctx.strokeStyle = "#00f";
-ctx.lineWidth=5;
-ctx.stroke();
-
-
-var arc3_per = 10;
-var arc3_to_c = (arc3_per / 50)
-var arc3_next_start = arc3_to_c;
-arc3_per = (arc1_next_start + arc2_next_start + arc3_to_c) * Math.PI;
-var arc3_start = (arc1_next_start + arc2_next_start) * Math.PI;
-ctx.beginPath();
-ctx.arc(100, 75, 50, arc3_start , arc3_per);
-ctx.strokeStyle = "#0f0";
-ctx.lineWidth=2;
-ctx.stroke();
+    var arc2_per = 25;
+    var arc2_to_c = (arc2_per / 50)
+    var arc2_next_start = arc2_to_c;
+    arc2_per = (arc1_next_start + arc2_to_c) * Math.PI;
+    var arc2_start = (arc1_next_start) * Math.PI;
+    ctx.beginPath();
+    ctx.arc(100, 75, 50, arc2_start , arc2_per);
+    ctx.strokeStyle = "#00f";
+    ctx.lineWidth=5;
+    ctx.stroke();
 
 
-var arc4_per = 10;
-var arc4_to_c = (arc3_per / 50)
-var arc4_next_start = arc4_to_c;
-arc3_per = (arc1_next_start + arc2_next_start+ arc3_next_start + arc3_to_c) * Math.PI;
-var arc4_start = (arc1_next_start + arc2_next_start + + arc3_next_start) * Math.PI;
-ctx.beginPath();
-ctx.arc(100, 75, 50, arc4_start , arc4_per);
-ctx.strokeStyle = "#0f0";
-ctx.lineWidth=2;
-ctx.stroke();
+    var arc3_per = 10;
+    var arc3_to_c = (arc3_per / 50)
+    var arc3_next_start = arc3_to_c;
+    arc3_per = (arc1_next_start + arc2_next_start + arc3_to_c) * Math.PI;
+    var arc3_start = (arc1_next_start + arc2_next_start) * Math.PI;
+    ctx.beginPath();
+    ctx.arc(100, 75, 50, arc3_start , arc3_per);
+    ctx.strokeStyle = "#0f0";
+    ctx.lineWidth=2;
+    ctx.stroke();
 
 
 
-</script> 
+
+</script>
 
 </body>
 </html>
