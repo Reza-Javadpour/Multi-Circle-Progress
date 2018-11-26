@@ -5,8 +5,6 @@ Multi-Circle-Progress Draw multi circular progress bars like this:
 
 ![](https://ibb.co/yg7MW0n)
 
-Check out [more examples](http://kottenator.github.io/jquery-circle-progress/)! Or maybe the crazy [one](http://jsbin.com/vatuza/5/)?
-
 Install
 -------
 
