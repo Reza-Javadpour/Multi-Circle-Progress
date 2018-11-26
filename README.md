@@ -3,7 +3,7 @@ Multi-Circle-Progress
 
 Multi-Circle-Progress Draw multi circular progress bars like this:
 
-![](https://ibb.co/yg7MW0n)
+![](https://i.ibb.co/tYFN8BM/mcp.png)
 
 Install
 -------
