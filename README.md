@@ -1,13 +1,9 @@
-jquery-circle-progress
+Multi-Circle-Progress
 ======================
 
-[![Build status](https://travis-ci.org/kottenator/jquery-circle-progress.svg?branch=master)](https://travis-ci.org/kottenator/jquery-circle-progress)
-[![Bower version](https://img.shields.io/bower/v/jquery-circle-progress.svg?maxAge=3600)](https://bower.io/search/?q=jquery-circle-progress)
-[![NPM version](https://img.shields.io/npm/v/jquery-circle-progress.svg?maxAge=3600)](https://www.npmjs.com/package/jquery-circle-progress)
+Multi-Circle-Progress Draw animated circular progress bars like this:
 
-jQuery Plugin to draw animated circular progress bars like this:
-
-![](http://i.imgur.com/zV5VUQG.png)
+![](https://ibb.co/yg7MW0n)
 
 Check out [more examples](http://kottenator.github.io/jquery-circle-progress/)! Or maybe the crazy [one](http://jsbin.com/vatuza/5/)?
 
@@ -63,14 +59,3 @@ Specify options like in example above.
 | data-arc_size_1 | this is first arc size thickness |
 | width | This is canvas width |
  |height | This is canvas Height |
-
-Events
-------
-
-| Event | Description | Handler |
-| ---- | ---- | ---- |
-| `circle-inited` | Triggered on init or re-init. | `function(event)`: <br>- `event` - jQuery event |
-| `circle-animation-start` | Triggered once the animation is started. | `function(event)`: <br>- `event` - jQuery event |
-| `circle-animation-progress` | Triggered on each [animation tick](http://api.jquery.com/animate/#step). | `function(event, animationProgress, stepValue)`: <br>- `event` - jQuery event <br>- `animationProgress` - from `0.0` to `1.0` <br>- `stepValue` - current step value: from `0.0` to `value` |
-| `circle-animation-end` | Triggered once the animation is finished. | `function(event)`: <br>- `event` - jQuery event |
-
