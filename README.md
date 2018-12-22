@@ -62,3 +62,6 @@ Specify options like in example above.
 | data-arc_size_1 | this is first arc size thickness |
 | width | This is canvas width |
 |height | This is canvas Height |
+
+
+* You can edit live here: [stackblitz.com](https://stackblitz.com/edit/js-d4st4g?file=index.html)
